@@ -5,4 +5,25 @@
 }
 .navbar{
     border: 1px solid rgb(19, 230, 156);
+    width: 80vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.sidebar{
+    border: 1px solid rgb(19, 230, 156);
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;   
+}
+.sidebar a{
+    padding-inline: 60px;
 }

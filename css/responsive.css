@@ -1,0 +1,12 @@
+/*--------------- media query 1 start ---------------*/
+@media (min-width: 120px) and (max-width: 768px)
+{
+    .sidebar a i{
+        text-align: center !important;
+        padding-inline: 0px !important;
+        width: 100% !important;
+    }
+    .sidebar a span{
+        display: none !important;
+    }
+}
