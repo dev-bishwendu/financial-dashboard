@@ -1,10 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+body{
+    background-image: url('../asset/3532.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    opacity: 1;
 }
 .navbar{
-    border: 1px solid rgb(19, 230, 156);
+    border-bottom: 1px solid rgb(231, 237, 235);
     width: 80vw;
     height: 10vh;
     position: fixed;
@@ -12,7 +19,6 @@
     right: 0;
 }
 .sidebar{
-    border: 1px solid rgb(19, 230, 156);
     width: 20vw;
     height: 100vh;
     display: flex;
@@ -24,6 +30,18 @@
     left: 0;
     overflow-y: scroll;   
 }
-.sidebar a{
-    padding-inline: 60px;
+.sidebar .dash{
+    position: absolute;
+    top: 50px;
 }
+.sidebar .nav-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px;
+    color: white;
+}
+.sidebar .sub-menu{
+    padding-left: 15%;
+}
+

@@ -12,34 +12,107 @@
 </head>
 <body>
     <!------------------------------ navbar start -------------------------------------->
-    <nav class="navbar navbar-expand-md navbar-light bg-light bg-gradient">
+    <nav class="navbar navbar-light bg-gradient">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="./asset/Beautiful.png" alt="" style="width: 60px; height: 60px;"></a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fa-solid fa-bars fa-2x"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+            <form class="d-flex form text-light" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav ms-auto d-flex flex-row justify-content-center align-items-center">
+                <li class="nav-item my-auto">
+                    <a class="nav-link active text-light fs-4" aria-current="page" href="#"><i class="fa-regular fa-bell"></i></a>
+                </li>
+                <li class="nav-item my-auto ps-2">
+                    <a class="nav-link active text-light fs-4" aria-current="page" href="#"><i class="fa-regular fa-envelope"></i></a>
+                </li>
+                <li class="nav-item my-auto ps-2">
+                    <a class="nav-link active text-light fs-4" aria-current="page" href="#"><img src="./asset/fotor-2025010810237.png" alt=""></a>
+                </li>
+            </ul>
         </div>
     </nav>
     <!------------------------------ navbar end ----------------------------------------->
 
     <!---------------------------------- sidebar start ---------------------------------->
-    <div class="sidebar">
-        <a class="d-flex align-items-center text-dark text-decoration-none mx-5 pb-5" href="#"><i class="fa-solid fa-layer-group fa-3x pe-3"></i><span class="fs-4">Dashboard</span></a>
-        <a class="d-flex align-items-center text-dark text-decoration-none mx-5 py-4" href="#"><i class="fa-solid fa-layer-group fa-3x pe-3"></i><span class="fs-4">Dashboard</span></a>
-        <a class="d-flex align-items-center text-dark text-decoration-none mx-5 py-4" href="#"><i class="fa-solid fa-layer-group fa-3x pe-3"></i><span class="fs-4">Dashboard</span></a>
-        <a class="d-flex align-items-center text-dark text-decoration-none mx-5 py-4" href="#"><i class="fa-solid fa-layer-group fa-3x pe-3"></i><span class="fs-4">Dashboard</span></a>
-    </div>
+    <div class="sidebar bg-gradient">
+      <a class="d-flex align-items-center text-light text-decoration-none dash" href="#"><i class="fa-brands fa-slack fa-2x pe-2"></i><span  class="fs-5">Dashboard</span>
+      </a>
+       <!-===============-menu with dropdown  ============>
+        <div class="dropdown">
+            <a class="nav-link text-light" href="#" data-bs-toggle="collapse" data-bs-target="#submenu1" aria-expanded="false" aria-controls="submenu">
+                <span class="description">Charts<i class="fa-solid fa-caret-down ps-1"></i></span>
+            </a>
+
+            <!-- submenu for projects -->
+            <div class="sub-menu collapse" id="submenu1">
+                <a class="nav-link" href="#">
+                    <span class="icon">
+                        <i class="fa-brands fa-dropbox"></i>
+                    </span>
+                    <span class="description">
+                        Chart1
+                    </span>
+                </a>
+            </div>
+            <div class="sub-menu collapse" id="submenu1">
+                <a class="nav-link" href="#">
+                    <span class="icon">
+                        <i class="fa-brands fa-dropbox"></i>
+                    </span>
+                    <span class="description">
+                        Chart2
+                    </span>
+                </a>
+            </div>
+            <div class="sub-menu collapse" id="submenu1">
+                <a class="nav-link" href="#">
+                    <span class="icon">
+                        <i class="fa-brands fa-dropbox"></i>
+                    </span>
+                    <span class="description">
+                        Chart3
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="nav-link text-light" href="#" data-bs-toggle="collapse" data-bs-target="#submenu2" aria-expanded="false" aria-controls="submenu">
+                <span class="description">Charts<i class="fa-solid fa-caret-down ps-1"></i></span>
+            </a>
+            
+            <!-- submenu for projects -->
+            <div class="sub-menu collapse" id="submenu2">
+                <a class="nav-link" href="#">
+                    <span class="icon">
+                        <i class="fa-brands fa-dropbox"></i>
+                    </span>
+                    <span class="description">
+                        Chart1
+                    </span>
+                </a>
+            </div>
+            <div class="sub-menu collapse" id="submenu2">
+                <a class="nav-link" href="#">
+                    <span class="icon">
+                        <i class="fa-brands fa-dropbox"></i>
+                    </span>
+                    <span class="description">
+                        Chart2
+                    </span>
+                </a>
+            </div>
+            <div class="sub-menu collapse" id="submenu2">
+                <a class="nav-link" href="#">
+                    <span class="icon">
+                        <i class="fa-brands fa-dropbox"></i>
+                    </span>
+                    <span class="description">
+                        Chart3
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>  
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,12 +1,27 @@
 /*--------------- media query 1 start ---------------*/
 @media (min-width: 120px) and (max-width: 768px)
 {
-    .sidebar a i{
-        text-align: center !important;
-        padding-inline: 0px !important;
-        width: 100% !important;
+    /*================== navbar style start =================*/
+    .form{
+        width: 50% !important;
     }
-    .sidebar a span{
+    .form button{
+        font-size: 10px !important;
+        padding: 0px 5px !important;
+    }
+    .form input{
+        font-size: 10px !important;
+    }
+    /* ================== navbar style end ================= */
+
+    /* ================== sidebar style start ================ */
+    .sidebar .dash span{
         display: none !important;
+    }
+    .sidebar .dash i{
+        text-align: center !important;
+        font-size: 20px !important;
+        width: 100% !important;
+        padding-inline: 0px !important;
     }
 }
