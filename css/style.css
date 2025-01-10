@@ -13,17 +13,6 @@ body{
 }
 /* =============== general style end ================ */
 
-/* =============== navbar style start ================ */
-.navbar{
-    border-bottom: 1px solid rgb(231, 237, 235);
-    width: 80vw;
-    height: 10vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-/* =============== navbar style end ================ */
-
 /* =============== sidebar style start ================ */
 .sidebar{
     width: 20vw;
@@ -57,3 +46,29 @@ body{
     padding-bottom: 5%;
 }
 /* ============== sidebar style end ================ */
+
+/* =============== navbar style start ================ */
+.navbar{
+    border-bottom: 1px solid rgb(231, 237, 235);
+    width: 80vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+/* =============== navbar style end ================ */
+
+/* =============== container style start ================ */
+.container{
+    position: absolute;
+    width: 80vw;
+    height: 90vh;
+    top: 10vh;
+    right: 0;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-inline: 2%;
+}
