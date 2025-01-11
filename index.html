@@ -13,14 +13,24 @@
 <body>
     <!--============================ sidebar start =================================-->
     <div class="sidebar">
-        <a class="dash" href="#"><i class="fa-brands fa-slack fa-2x pe-3"></i><span class="fs-3">Dashboard</span></a>
-        <div class="menu">
-            <a href="#"><i class="fa-solid fa-chart-line pe-3"></i><span>Analytics</span></a>
-            <a href="#"><i class="fa-solid fa-gear pe-3"></i><span>Settings</span></a>
-            <a href="#"><i class="fa-solid fa-user pe-3"></i><span>Profile</span></a>
-            <a href="#"><i class="fa-solid fa-right-from-bracket pe-3"></i><span>Logout</span></a>
-        </div>
-        
+        <nav class="nav flex-column">
+            <a href="#" class="nav-link fs-3 fw-bold" style="position: absolute; top: 20px; color: #fff;">
+                <span class="icon"><i class="fa-brands fa-slack"></i></span>
+                <span class="title">Dashboard</span>
+            </a>
+            <!-- menu with dropdown -->
+            <a href="#" class="nav-link" style="color: #fff;" data-bs-toggle="collapse" data-bs-target="#submenu" aria-expanded="false" aria-controls="submenu">
+                <span class="icon"><i class="fa-solid fa-chart-line pe-2"></i></span>
+                <span class="title">Analytics <i class="fa-solid fa-angle-down ps-1"></i></span>
+            </a>
+            <!-- submenu -->
+             <div class="sub-menu collapse ps-4" id="submenu">
+                <a class="nav-link" style="color: #fff;" href="#">
+                    <span class="icon"><i class="fa-solid fa-chart-line pe-2"></i></span>
+                    <span class="title">Dashboard</span>
+                </a>
+             </div>
+        </nav>
     </div>
     <!--============================ sidebar end =================================-->
     </div>

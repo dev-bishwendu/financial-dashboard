@@ -2,23 +2,7 @@
 @media (min-width: 120px) and (max-width: 768px)
 {
     /* ================== sidebar style start ================ */
-    .sidebar{
-        align-items: center !important;
-    }
-    .sidebar .dash span{
-        display: none !important;
-    }
-    .sidebar .dash i{
-        align-items: center !important;
-        width: 100% !important;
-    }
-    .sidebar .menu a{
-        width: 100% !important;
-        align-items: center !important;
-    }
-    .sidebar .menu a span{
-        display: none !important;
-    }
+    
     /* ================== sidebar style end ================ */
 
     /*================== navbar style start =================*/

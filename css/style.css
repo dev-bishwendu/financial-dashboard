@@ -31,21 +31,10 @@ a{
     gap: 3%;
     justify-content: center;
     align-items: start;
-    padding-left: 2%;
-    
+    padding-left: 2%;    
 }
-.sidebar .dash{
-    position: absolute;
-    top: 20px;
-}
-.sidebar .menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    flex-direction: column;
-    gap: 40px;
-    font-size: 20PX;
-}
+
+
 /* ====================== sidebar style end ================= */
 
 /*======================== container style start ========================*/
