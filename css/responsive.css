@@ -1,6 +1,26 @@
 /*--------------- media query 1 start ---------------*/
 @media (min-width: 120px) and (max-width: 768px)
 {
+    /* ================== sidebar style start ================ */
+    .sidebar{
+        align-items: center !important;
+    }
+    .sidebar .dash span{
+        display: none !important;
+    }
+    .sidebar .dash i{
+        align-items: center !important;
+        width: 100% !important;
+    }
+    .sidebar .menu a{
+        width: 100% !important;
+        align-items: center !important;
+    }
+    .sidebar .menu a span{
+        display: none !important;
+    }
+    /* ================== sidebar style end ================ */
+
     /*================== navbar style start =================*/
     .form{
         width: 50% !important;
@@ -13,15 +33,4 @@
         font-size: 10px !important;
     }
     /* ================== navbar style end ================= */
-
-    /* ================== sidebar style start ================ */
-    .sidebar .dash span{
-        display: none !important;
-    }
-    .sidebar .dash i{
-        text-align: center !important;
-        font-size: 20px !important;
-        width: 100% !important;
-        padding-inline: 0px !important;
-    }
 }
