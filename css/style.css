@@ -52,8 +52,47 @@ a{
     width: 80vw;
     height: 100vh;
     position: absolute;
-    top: 0px;
     right: 0px;  
 }
-/*======================== container style end ========================*/
+/*============== navbar style start========= */
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 10vh;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
 }
+.form{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    width: 100%;
+    border: none;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+/* ============== navbar style end========= */
+
+/* ============== content style start========= */
+.content{
+    position: relative;
+    top: 10vh;
+    width: 90%;
+    height: 90vh;
+    padding: 5% 5%;
+}
+/* ================ content style end========= */
+/*======================== container style end ========================*/

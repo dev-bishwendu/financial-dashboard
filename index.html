@@ -96,10 +96,32 @@
         </nav>
     </div>
     <!--============================ sidebar end =================================-->
+    <!-- ============================= main content start ================================ -->
+    <div class="container">
+        <!-- ============== navbar start ============== -->
+        <div class="navbar">
+            <div class="search">
+                <form class="form" action="search">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass text-dark"></i></a>
+                </form>
+            </div>
+            <div class="user d-flex align-items-center justify-content-between gap-4">
+                <a href="#"><i class="fa-regular fa-bell fa-2x text-light"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope fa-2x text-light"></i></a>
+                <a href="#"><img src="./asset/fotor-2025010810237.png" alt="user"></a>
+            </div>
+        </div>
+        <!-- ============== navbar end ============== -->
 
-    <!--============================ navbar start =================================-->
-
-    <!-- =============================== navbar end ================================= -->
+        <!-- ============== content start ============== -->
+        <div class="content">
+            <div class="content-1">
+                <canvas class="chart bg-light rounded" id="myChart" style="width: 400px; height: 400px;"></canvas>
+            </div>
+        </div> 
+    </div>
+    <!-- ============================= main content end ================================ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
