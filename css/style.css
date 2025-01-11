@@ -33,8 +33,18 @@ a{
     align-items: start;
     padding-left: 2%;    
 }
-
-
+.sub-menu{
+    padding-left: 3%;
+}
+.sub-menu .title:hover{
+    text-decoration: underline;
+}
+.sidebar p{
+    padding-left: 7%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 20px;
+}
 /* ====================== sidebar style end ================= */
 
 /*======================== container style start ========================*/
